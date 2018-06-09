@@ -11,25 +11,14 @@ public class BogoSorter extends Sorter {
 	// inefficient sorting algorithm while still maintaining the possibility
 	// of eventually sorting data.
 	
+	// It works by following these steps:
+	// 1. Take two randomly selected elements in the array and swap them.
+	// 2. Is the array in order?
+	//    	if yes, finished; if no, go back to step 1.
+	
+	//1. Complete the sort method using the Bogo sort algorithm. 
 	@Override
 	void sort(int[] array, SortingVisualizer display) {
-		//1. create an object of the random class.
-		
-		//2. create a boolean called sorted and set it equal to false.
-		
-		//3. make a while loop that runs while sorted is false
-			
-			//4. create two random integer variables that are some value 
-			//   between 0 and the length of the array
-			
-			//5. take the array elements at the two random numbers and 
-			//   swap them.
-			
-			//6. iterate through the array. 
-
-				//7. if you find any elements that are out of order,
-				//   set sorted equal to false and break out of the loop.
-				//   otherwise set sorted equal to true.
 
 	}
 }

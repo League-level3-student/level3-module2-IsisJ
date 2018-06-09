@@ -20,7 +20,7 @@ public class QuickSorter extends Sorter {
 		//   to low and high respectively.
        
         //3. create an integer called pivot and set it equal to the element
-        //   in array that is the halfway point between low and high
+        //   in the array that is the halfway point between low and high
 
         //4. make a while loop that goes while i is less than or equal to j
         

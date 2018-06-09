@@ -1,6 +1,5 @@
 package _00_Sorting_Algorithms;
 
-import java.awt.BorderLayout;
 import java.awt.Color;
 import java.awt.Dimension;
 import java.awt.image.BufferedImage;
@@ -47,8 +46,7 @@ public class SortingVisualizer extends JLabel{
 		displayPanel.add(this);
 		displayPanel.setPreferredSize(new Dimension(WIDTH, HEIGHT));
 		
-		window.setLayout(new BorderLayout());
-		window.add(displayPanel, BorderLayout.CENTER);
+		window.add(displayPanel);
 		
 		window.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		window.pack();
