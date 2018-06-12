@@ -1,4 +1,4 @@
-package _02_Searching_And_Sorting_Algorithms;
+package _02_More_Algorithms;
 
 import static org.junit.Assert.*;
 
@@ -6,7 +6,7 @@ import java.util.Arrays;
 import java.util.List;
 
 import org.junit.Test;
-public class SearchingAndSortingAlgorithms {
+public class _01_SearchingAndSortingAlgorithms {
 
 	/**
 	 * Create the methods in the Algorithm class so that it will make the following tests pass. When you get a green bar, uncomment the next test until you have

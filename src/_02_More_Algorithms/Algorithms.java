@@ -1,4 +1,4 @@
-package _02_Searching_And_Sorting_Algorithms;
+package _02_More_Algorithms;
 
 import java.util.List;
 
