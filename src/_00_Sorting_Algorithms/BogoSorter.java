@@ -12,9 +12,10 @@ public class BogoSorter extends Sorter {
 	// of eventually sorting data.
 	
 	// It works by following these steps:
-	// 1. Take two randomly selected elements in the array and swap them.
-	// 2. Is the array in order?
-	//    	if yes, finished; if no, go back to step 1.
+	// 1. Is the array in order?
+	//	if yes, finished; in no, go to step 2.
+	// 2. Take two random elements in the array and swap them.
+	// 3. Go back to step 1.
 	
 	//1. Complete the sort method using the Bogo sort algorithm. 
 	@Override
