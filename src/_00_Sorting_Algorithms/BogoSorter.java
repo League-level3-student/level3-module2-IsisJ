@@ -13,7 +13,7 @@ public class BogoSorter extends Sorter {
 	
 	// It works by following these steps:
 	// STEP 1. Is the array in order?
-	//	if yes, finished; in no, go to step 2.
+	//	if yes, finished; if no, go to step 2.
 	// STEP 2. Take two random elements in the array and swap them.
 	// STEP 3. Go back to step 1.
 	
