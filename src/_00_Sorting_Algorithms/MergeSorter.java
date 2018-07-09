@@ -46,7 +46,7 @@ public class MergeSorter extends Sorter {
                   
                 //13. else
             
-                	//14. set array at k equal to temop array at j
+                	//14. set array at k equal to temp array at j
                    
                     //15. increase j by 1
                  
@@ -55,7 +55,7 @@ public class MergeSorter extends Sorter {
             
             //17. make a while loop that runs while i is less than or equal to middle
             
-            	//18. set array at k equal to temo array at i
+            	//18. set array at k equal to temp array at i
                 
                 //19. increase k and i by 1
                
