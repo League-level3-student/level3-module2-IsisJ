@@ -5,7 +5,7 @@ public class MergeSorter extends Sorter {
 		type = "Merge";
 	}
 	
-	//1. Since this sorting algorithm uses recursion, 
+	//0. Since this sorting algorithm uses recursion, 
 	//   we'll make a helper method called mergeSort.
 	//   Complete the steps in the mergeSort method.
 	//   You can use display.updateDisplay() to show the current
