@@ -23,7 +23,7 @@ public class HeapSorter extends Sorter {
         //10. make a for loop that starts at n-1 
         //    and counts down until it is less than 0.
         
-        	//11. swap the array elements at 0 and 1.
+        	//11. swap the array elements at 0 and i.
  
             //12. call the heapSort method with i and 0
         
@@ -32,9 +32,9 @@ public class HeapSorter extends Sorter {
 	public void heapSort(int[] array, int n, int i, SortingVisualizer display) {
 		//2. create an integer called largest and set it equal to i
 	
-		//3. create an integer called l and set it equal to (i + 1) * 2
+		//3. create an integer called l and set it equal to 2 * i + 1
         
-		//4. create an integer called r and set it equal to (i + 2) * 2
+		//4. create an integer called r and set it equal to 2 * i + 2
  
         //5. if l is less than n 
         //   and array element at l is greater than array element at largest
