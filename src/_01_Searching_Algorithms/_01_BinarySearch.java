@@ -3,7 +3,8 @@ package _01_Searching_Algorithms;
 public class _01_BinarySearch {
 	// Binary searches are good for sorted data because it
 	// can potentially take a lot less time than a linear search,
-	// especially if the data set is very large.
+	// especially if the data set is very large. But it cannot be used
+	// for unsorted lists.
 	
 	// Because binary search is a recursive algorithm, the
 	// binarySearch method will take in two extra integer parameters
