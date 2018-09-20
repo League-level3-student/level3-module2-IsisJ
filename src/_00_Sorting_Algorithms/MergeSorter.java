@@ -22,7 +22,7 @@ public class MergeSorter extends Sorter {
 		//   and put the rest of the method inside of it
 
 			//3. Create an integer called middle and set it 
-			//   equal to the half way
+			//   equal to the half way point between low and high
             
             //4. call the mergeSort method with low and middle
            
