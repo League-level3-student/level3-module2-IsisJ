@@ -28,7 +28,7 @@ public class MergeSorter extends Sorter {
            
             //5. call the mergeSort method with middle + 1 and high
             
-            //6. copy the element from the array into the temporary array,
+            //6. copy the elements from the array into the temporary array,
             //   but only the elements from low to high inclusive
             
             //7. create three integers called i, j, and k and
