@@ -13,7 +13,7 @@ public class _01_SearchingAndSortingAlgorithms {
 	 * solved them all. Expand your vocabulary while you're at it.
 	 **/
 
-	/* 1. Create a method that will find return the first index of a broken egg */
+	/* 1. Create a method that will find and return the first index of a broken egg */
 	@Test
 	public void testSearch() {
 		List<String> eggs = Arrays.asList(new String[] { "whole", "whole", "whole", "whole", "cracked", "whole", "whole", "whole",
