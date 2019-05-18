@@ -47,12 +47,4 @@ public class _00_SortedArrayChecker {
 		return true;
 	}
 
-	
-	//4. Write a static method called stringArraySorted. 
-	//   This method takes in an array of Strings
-	//   and it returns a boolean.
-	//   The method returns true if the String
-	//   array is in alphabetical order and false otherwise
-	//   (Use the compareTo(String) method)
-
 }
