@@ -20,6 +20,7 @@ public class MergeSorter extends Sorter {
 	private void mergeSort(int[] array, int low, int high, SortingVisualizer display) {
 		//1. Create a temporary integer array that is the same length as the passed in array.
 		int[] tempArray = new int[array.length];
+		
 		//2. make an if statement that checks if low is less than high
 		//   and put the rest of the method inside of it
 		if(low<high) {
@@ -48,13 +49,15 @@ public class MergeSorter extends Sorter {
                 if(tempArray[i]<=tempArray[j]) {
                 	//10. set array at k equal to temp array at i
                     array[k] = tempArray[i];
+                    display.updateDisplay();
                     //11. increase i by 1
-                  i++;
+                    i++;
                 }
                 //13. else
                 else {
                 	//14. set array at k equal to temp array at j
                    array[k]=tempArray[j];
+                   display.updateDisplay();
                     //15. increase j by 1
                    j++;
                 }
@@ -65,8 +68,10 @@ public class MergeSorter extends Sorter {
             while(i<=middle) {
             	//18. set array at k equal to temp array at i
                 array[k] = tempArray[i];
+                display.updateDisplay();
                 //19. increase k and i by 1
             	k++;
+            	i++;
             }
 		}   
         
