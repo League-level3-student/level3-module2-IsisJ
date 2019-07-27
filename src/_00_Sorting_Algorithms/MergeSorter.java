@@ -13,8 +13,7 @@ public class MergeSorter extends Sorter {
 	@Override
 	void sort(int[] array, SortingVisualizer display) {
 		//20. call the mergeSort method with 0 and the length of the array minus one
-		MergeSorter mergeSorter = new MergeSorter();
-		mergeSorter.mergeSort(array, 0, array.length-1, display);
+		mergeSort(array, 0, array.length-1, display);
 	}
 	
 	private void mergeSort(int[] array, int low, int high, SortingVisualizer display) {
