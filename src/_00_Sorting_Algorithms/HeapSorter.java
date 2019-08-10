@@ -20,7 +20,7 @@ public class HeapSorter extends Sorter {
 		//   0 and n and counts down until it is less than 0.
 		//   Inside this for loop, call the heapSort method with n and i
         for(int i = n/2; i>=0; i--) {
-        		heapSort(array, n, i, display);
+        	heapSort(array, n, i, display);
         			
         }
         //10. make a for loop that starts at n-1 
