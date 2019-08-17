@@ -39,6 +39,7 @@ class _04_SearchTest {
 		assertEquals(0, _02_InterpolationSearch.interpolationSearch(numbers, 22));
 		assertEquals(-1, _02_InterpolationSearch.interpolationSearch(numbers, 27));
 		
+		
 	}
 	
 	@Test
