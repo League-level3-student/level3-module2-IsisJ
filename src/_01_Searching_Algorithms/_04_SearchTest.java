@@ -33,7 +33,11 @@ class _04_SearchTest {
 	public void testInterpolationSearch() {
 		//3. use the assertEquals method to test your interpolation search method.
 		//   remember that the array must be sorted and evenly distributed
+		int[] numbers = {22, 25, 30, 40, 45};
 		
+		assertEquals(2, _02_InterpolationSearch.interpolationSearch(numbers, 30));
+		assertEquals(0, _02_InterpolationSearch.interpolationSearch(numbers, 22));
+		assertEquals(-1, _02_InterpolationSearch.interpolationSearch(numbers, 27));
 		
 	}
 	
