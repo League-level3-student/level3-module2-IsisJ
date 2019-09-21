@@ -7,7 +7,7 @@ public class _03_ExponentialSearch {
 		if(array[0]==value) {
 			return 0;
 		}
-		
+		int counter = 1;
 		while(counter<array.length && array[counter]<=value) {
 			//5. inside the while loop, double the value of counter.
 			counter = counter*2;
